@@ -1,92 +1,87 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  first: Jilvan
+  middle: Candido
+  last: da Silva
+
+about: Olá, meu nome é Jilvan da Silva e eu sou um desenvolvedor Full-Stack.
+      Eu tenho mais de 15 anos de experiência com desenvolvimento web, tendo trabalhado em grandes projetos.
+      Sou proativo, pontual w apaixonado por tecnologias web, movido a desafios e procuro me manter sempre atualizado.
+position: Full Stack Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1980
+  location: Manaus - AM - Brazil
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: FIT - Instituto de Tecnologia
+  position: Full Stack Developer
+  timeperiod: desde Março de 2018
+  description: Trabalhando em projetos usando Angular 5+, HTML5 e CSS3 no front-end e .NET Core 2 no back-end, utilizando Rest API. Bitbucket(Git) para controle de versão dos fontes, usando o JIRA para rastreamento de bugs, rastreamento de problemas e gerenciamento de projetos e Scrum para planejamento das atividades dos projetos.
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: SENAI - AM
+  position: Analista Desenvolvedor
+  timeperiod: Dezembro de 2014 - Fevereiro de 2018
+  description: Realizar otimização e manutenção de sistemas e legados atuais garantindo a segurança e o negócio da empresa. Arquitetar, especificar e implementar soluções web usando as principais tecnologias do mercado, garantindo a entrega e qualidade dos códigos. Tecnologias usadas: Laravel C#, Rest API e Wb Service. Integração do ERP com sistemas de terceiros utilizando Rest API. SVN e Git para controle de versão.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Rádio TV do Amazonas
+  position: Full Stack Developer
+  timeperiod: Agosto 2007 - Novembro 2014
+  description: Manter aplicações online 24x7 garantindo o negócio da empresa. Utilizando tecnologias como: C#/VB.NET, PHP and Java applications para aplicações Web. Desenvolvimento de integração com sistemas terceiros atraves de Rest API. Desenvolvimento de consultas SQL para extração de relatórios. Scrum para planejamento das atividades dos projetos internos e SVN para controle de versção dos fontes.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Build an app with ASPNET Core and Angular from Scratch
+  timeperiod: Abril 2018
+  description: UDEMY
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: The Complete Angular Course - Beginner to Advanced
+  timeperiod: Julho 2017
+  description: UDEMY
+
+- degree: The Web Developer Bootcamp (HTML, CSS, JS and Node)
+  timeperiod: Janeiro 2017
+  description: UDEMY
+
+- degree: PHP with Laravel for beginners – Become a Master in Laravel
+  timeperiod: Março 2016
+  description: UDEMY
+
+- degree: Bacharel em Ciência da Computação
+  timeperiod: Marcço 2000 - Dezembro 2004
+  description: UNIP - Universidade Paulista
+
 
 # skill level goes 0 to 100
 skills:
 - name: HTML5
   level: 99
 - name: CSS3
-  level: 95
+  level: 90
 - name: JavaScript
-  level: 97
-- name: Node.js
   level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Node.js
   level: 80
-- name: ES.Next
-  level: 70
+- name: Angular 2+
+  level: 90
+- name: TypeScript
+  level: 90
+- name: ASP.NET Core
+  level: 95
+- name: PHP
+  level: 90
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
-
-projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+  level: 80
+- name: Git
+  level: 90
+knowledge: Conhecimento em Linux
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+  email: jilvan.silva@gmail.com
+  phone: +55 92 98418-2160
+  street: Belo Horizonte street, N397. Adrianopolis
+  city: Manaus - AM
+  website: jilvanx.com
+  github: jilvanx
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw, lt, ko, el
+lang: pt-br
 `

@@ -1,0 +1,101 @@
+/* #*/ export const PERSON = `
+name:
+  first: Jilvan
+  middle: Candido
+  last: da Silva
+
+about: Oi, meu nome é Jilva da Silva eu sou um desenvolvedor web front end.
+       Tenho mais de 10 anos de experiência com desenvolvimento. Possuo um ótimo nível técnico,
+       pró-ativo, pontual, apaixonado por tecnologia, movido a desafios e em constante atualização.
+position: Desenvolvedor Front End
+
+birth:
+  year: 1980
+  location: Manaus - AM - Brazil
+
+experience:
+- company: Serviço Nacional de Aprendizagem Industrial – SENAI/AM
+  position: Analista Desenvolvedor
+  timeperiod: desde Dezembro/2014
+  description: Responsável pela integração do sistema de folha de pagamento com o ERP utilizando Rest API; Manutenção nos sistemas legados. Tecnologias utilizadas - Laravel 5.*, ASP.NET, Angularjs, Angular 4, CSS, Materialize e Bootstrap. SVN e Git como controle de versão.
+
+- company: Project Minning Express
+  position: Desenvolvedor Full Stack
+  timeperiod: Novembro/2017 - Janeiro/2018
+  description: Freelance como desenvolvedor full stack usando as seguintes tecnologias:HTML/CSS, Bootstrap, Angular.js no front end, Laravel no back end, docker como administração de ambientes isolados e Git como controle de versão.
+
+- company: Indikko (Startup)
+  position: Desenvolvedor Front End
+  timeperiod: Junho/2017 - Novembro/2017
+  description: Desenvolvedor web front end utilizando as seguintes ferramentas:Angular 4, HTML/CSS, Bootstrap, Rest API e Git como controle de versão.
+
+- company: Rádio TV do Amazonas Ltda
+  position: Desenvolvedor Full Stack
+  timeperiod: Outubro/2007 - Novembro/2014
+  description: Manutenção em aplicações online 24x7; Trabalhando com linguagens de programação Visual Basic 6 e Delphi 7 para manter desktops e C#, php e JAVA para para aplicações Web; Scrum para o planejamento das atividades de projetos internos; Controle de versão SVN.
+
+# - company: Policentro Tecnologia da Informação Ltda
+#   position: Analista de Sistemas
+#   timeperiod: Março/2004 - Setembro/2007
+#   description: Levantamento e Controle de Requisitos; Modelagem e especificação funcional com auxílio da UML; Modelagem de banco de dados utilizando a ferramenta ErWin.
+
+education:
+
+- degree: Front-End Web Developer Nanodegree
+  timeperiod: Janeiro/2018 - Abril/2018
+  description: Udacity
+
+# - degree: React + Redux:Fundamentos
+#   timeperiod: Agosto/2017
+#   description: UDEMY
+
+- degree: The Complete Angular Course - Beginner to Advanced
+  timeperiod: Julho/2017
+  description: UDEMY
+
+- degree: Angular 2+ with Typescript - Essential Training
+  timeperiod: Junho/2017
+  description: UDEMY
+
+# - degree: The Web Developer Bootcamp (HTML, CSS, JS and Node)
+#   timeperiod: Janeiro/2017
+#   description: UDEMY
+
+- degree: Bacharel em Ciência da Computação
+  timeperiod: Março/2000 - Dezembro/2004
+  description: UNIP
+
+# skill level goes 0 to 100
+skills:
+- name: HTML5
+  level: 99
+- name: CSS3
+  level: 90
+- name: JavaScript
+  level: 90
+- name: Node.js
+  level: 80
+- name: React
+  level: 30
+- name: Angular 4+
+  level: 85
+- name: TypeScript
+  level: 85
+- name: PHP
+  level: 95
+- name: Java
+  level: 85
+- name: Docker
+  level: 80
+knowledge: Conhecimento em padrões de projeto, linux e controle de versão como Git e SVN.
+
+contact:
+  email: jilvan.silva@gmail.com
+  phone: +55 92 98418-2160
+  street: Belo Horizonte, N397. Bairro:Adrianópolis
+  city: Manaus - AM
+  website: jilvanx.com
+  github: jilvanx
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw, lt, ko, el
+lang: pt
+`

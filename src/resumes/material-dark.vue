@@ -148,7 +148,7 @@ a {
 .title {
   right:25px;
   padding-left:20px;
-  padding-top:20px;
+  /* padding-top:20px; */
   bottom:25px;
   h2 {
     text-transform:uppercase;
@@ -161,13 +161,13 @@ a {
     color:white;
     color:rgba(0,0,0,0.7);
     padding-top:0;
-    margin-top:0;
+    margin-top: -10px;
     letter-spacing:10px;
     font-weight:400;
   }
   div {
     margin-top:-5px;
-    margin-top:0;
+    margin-top: -10px !important;
     margin:0;
     padding:0;
     line-height:15pt;
@@ -196,8 +196,8 @@ a {
   font-size:10pt;
   opacity:0.8;
   margin-left:20px;
-  margin-top:40px;
-  margin-bottom:20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   color:#3f3d3c;
 }
 .c {
@@ -263,7 +263,7 @@ h4 {
     width:90%;
     position:relative;
     background-color:#ffffff;
-    padding:20px;
+    padding: 15px;
     margin-top:5px;
     margin-bottom:5px;
     display:inline-block;
@@ -284,7 +284,7 @@ h4 {
       font-size:14px;
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
-      padding-top:20px;
+      padding-top: 8px
     }
     .icon {
       width:16%;

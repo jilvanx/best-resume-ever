@@ -22,12 +22,12 @@ experience:
 - company: SENAI - AM
   position: Analista Desenvolvedor
   timeperiod: Dezembro de 2014 - Fevereiro de 2018
-  description: Realizar otimização e manutenção de sistemas e legados atuais garantindo a segurança e o negócio da empresa. Arquitetar, especificar e implementar soluções web usando as principais tecnologias do mercado, garantindo a entrega e qualidade dos códigos. Tecnologias usadas: Laravel C#, Rest API e Wb Service. Integração do ERP com sistemas de terceiros utilizando Rest API. SVN e Git para controle de versão.
+  description: Realizar otimização e manutenção de sistemas e legados atuais garantindo a segurança e o negócio da empresa. Arquitetar, especificar e implementar soluções web usando as principais tecnologias do mercado, garantindo a entrega e qualidade dos códigos. Tecnologias usadas Laravel, C#, Rest API e Wb Service. Integração do ERP com sistemas de terceiros utilizando Rest API. SVN e Git para controle de versão.
 
 - company: Rádio TV do Amazonas
   position: Full Stack Developer
   timeperiod: Agosto 2007 - Novembro 2014
-  description: Manter aplicações online 24x7 garantindo o negócio da empresa. Utilizando tecnologias como: C#/VB.NET, PHP and Java applications para aplicações Web. Desenvolvimento de integração com sistemas terceiros atraves de Rest API. Desenvolvimento de consultas SQL para extração de relatórios. Scrum para planejamento das atividades dos projetos internos e SVN para controle de versão dos fontes.
+  description: Manter aplicações online 24x7 garantindo o negócio da empresa. Utilizando tecnologias como C#/VB.NET, PHP and Java applications para aplicações Web. Desenvolvimento de integração com sistemas terceiros atraves de Rest API. Desenvolvimento de consultas SQL para extração de relatórios. Scrum para planejamento das atividades dos projetos internos e SVN para controle de versão dos fontes.
 
 education:
 - degree: Build an app with ASPNET Core and Angular from Scratch
@@ -78,7 +78,7 @@ knowledge: Conhecimento em Linux
 contact:
   email: jilvan.silva@gmail.com
   phone: +55 92 98418-2160
-  street: Belo Horizonte street, N397. Adrianopolis
+  street: Rua Belo Horizonte, N397. Adrianópolis
   city: Manaus - AM
   website: jilvanx.com
   github: jilvanx

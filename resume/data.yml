@@ -4,9 +4,9 @@ name:
   middle: Candido
   last: da Silva
 
-about: Olá, meu nome é Jilvan da Silva e eu sou um desenvolvedor Full-Stack.
+about: Olá, meu nome é Jilvan e eu sou um desenvolvedor Full-Stack.
       Eu tenho mais de 15 anos de experiência com desenvolvimento web, tendo trabalhado em grandes projetos.
-      Sou proativo, pontual w apaixonado por tecnologias web, movido a desafios e procuro me manter sempre atualizado.
+      Sou proativo, pontual e apaixonado por tecnologias web, movido a desafios e procuro me manter sempre atualizado.
 position: Full Stack Developer
 
 birth:
@@ -17,7 +17,7 @@ experience:
 - company: FIT - Instituto de Tecnologia
   position: Full Stack Developer
   timeperiod: desde Março de 2018
-  description: Trabalhando em projetos usando Angular 5+, HTML5 e CSS3 no front-end e .NET Core 2 no back-end, utilizando Rest API. Bitbucket(Git) para controle de versão dos fontes, usando o JIRA para rastreamento de bugs, rastreamento de problemas e gerenciamento de projetos e Scrum para planejamento das atividades dos projetos.
+  description: Trabalhando em projetos usando Angular 5+, HTML5 e CSS3 no front-end e .NET Core 2 e Spring Boot no back-end, utilizando Rest API. Bitbucket(Git) para controle de versão dos fontes, usando o JIRA para rastreamento de bugs, rastreamento de problemas e gerenciamento de projetos e Scrum para planejamento das atividades dos projetos.
 
 - company: SENAI - AM
   position: Analista Desenvolvedor

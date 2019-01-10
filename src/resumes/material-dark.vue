@@ -162,6 +162,7 @@ a {
     color:rgba(0,0,0,0.7);
     padding-top:0;
     margin-top: -10px;
+    margin-bottom: -10px;
     letter-spacing:10px;
     font-weight:400;
   }
@@ -196,7 +197,7 @@ a {
   font-size:10pt;
   opacity:0.8;
   margin-left:20px;
-  margin-top: 15px;
+  margin-top: 13px;
   margin-bottom: 10px;
   color:#3f3d3c;
 }
@@ -263,7 +264,7 @@ h4 {
     width:90%;
     position:relative;
     background-color:#ffffff;
-    padding: 15px;
+    padding: 13px;
     margin-top:5px;
     margin-bottom:5px;
     display:inline-block;

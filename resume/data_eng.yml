@@ -17,12 +17,12 @@ experience:
 - company: FIT - Institute of Technology
   position: Full Stack Developer
   timeperiod: since March 2018
-  description: Working in projects with Angular 5+, HTML and CSS3 in front-end and .NET Core 2 in back-end, using technology such as API Rest. For version control using tool Bitbucket(Git) and JIRA for bug tracking, issue tracking, and project management.
+  description: Working in projects with Angular 5+, HTML and CSS3 in front-end and Spring boot (Java) in the back-end, using technology such as API Rest. Knowledge in SQL queries (SQL Server, Oracle, MySQL, and PostgreSQL) and Google BigQuery. Using scrum for planning the activities, for version control using tool Bitbucket(Git) and JIRA for bug tracking, issue tracking, and project management.
 
 - company: SENAI - AM
   position: Full Stack Developer
-  timeperiod: since December 2014
-  description: Plan, architect, specify and implement solutions based on Web technology, guaranteeing the delivery of scalable and quality codes; Perform optimization and maintenance of current systems and legacies; Technology used Laravel, C#, Json, API Rest and Web Service; Integration of ERP with third-party systems and legacy systems utilizing technology such as API and Web Service; SVN and Git for version control.
+  timeperiod: since December 2014 - February 2018
+  description: Perform optimization and maintenance of current systems and legacies (healths system); Technology used are Angular 2+ in front-end and Laravel and C# in back-end, Json, API Rest and Web Service; Integration of ERP with third-party systems and legacy systems utilizing technology such as API and Web Service; SVN and Git for version control.
 
 - company: Rádio TV do Amazonas
   position: Full Stack Developer
@@ -78,7 +78,7 @@ contact:
   phone: +55 92 98418-2160
   street: Belo Horizonte street, N397. Adrianopolis
   city: Manaus - AM
-  website: jilvanx.com
+  # website: jilvanx.com
   github: jilvanx
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw, lt, ko, el
 lang: en

@@ -4,9 +4,9 @@ name:
   middle: Candido
   last: da Silva
 
-about: Hi, my name is Jilvan da Silva and I am a web developer.
-      I have more than 15 years of experience with web development and I have a great technical level
-      I am proactive and ponctual, passionate about technology, driven to challenges and constantly updating.
+about: I'm a FullStack Developer. I have more than 15 years of experience with web development.
+      I'm currently improving Javascript stack (ReactJS, React Native e NodeJS).
+      I'm a passionate about technology, driven to challenges and constantly updating.
 position: Full Stack Developer
 
 birth:
@@ -17,7 +17,7 @@ experience:
 - company: FIT - Institute of Technology
   position: Full Stack Developer
   timeperiod: since March 2018
-  description: Working in projects with Angular 5+, HTML and CSS3 in front-end and Spring boot (Java) in the back-end, using technology such as API Rest. Knowledge in SQL queries (SQL Server, Oracle, MySQL, and PostgreSQL) and Google BigQuery. Using scrum for planning the activities, for version control using tool Bitbucket(Git) and JIRA for bug tracking, issue tracking, and project management.
+  description: Working in projects with Angular 5 in front-end and Spring boot (Java) and .Net Core 2 in the back-end, using technology such as API Rest. Knowledge in SQL queries (SQL Server, Oracle, MySQL, PostgreSQL and Google BigQuery). Using scrum for planning the activities, for version control using tool Bitbucket(Git) and JIRA for bug tracking, issue tracking, and project management.
 
 - company: SENAI - AM
   position: Full Stack Developer
@@ -30,12 +30,12 @@ experience:
   description: Maintaining online applications 24x7; Using technologies:C#/VB.NET, PHP and Java applications for Web applications; Scrum for planning the activities of internal projects; SVN version control.
 
 education:
+- degree: Node.js, Express, React, React Native, MongoDB e Docker.
+  timeperiod: Abril 2019
+  description: Rocketseat
+
 - degree: Build an app with ASPNET Core and Angular from scratch
   timeperiod: April 2018
-  description: UDEMY
-
-- degree: The Complete Angular Course - Beginner to Advanced
-  timeperiod: July 2017
   description: UDEMY
 
 - degree: The Web Developer Bootcamp (HTML, CSS, JS and Node)
@@ -43,40 +43,36 @@ education:
   description: UDEMY
 
 - degree: PHP with Laravel for beginners – Become a Master in Laravel
-  timeperiod: March 2016
+  timeperiod: Março 2016
   description: UDEMY
 
 - degree: Bachelor of Science in Computer Science
   timeperiod: March 2000 - December 2004
   description: UNIP - Brazil
 
-
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 90
 - name: JavaScript
   level: 93
 - name: Node.js
-  level: 80
-- name: Angular 2+
+  level: 70
+- name: .NET Core
   level: 90
-- name: TypeScript
-  level: 90
-- name: ASP.NET Core
-  level: 95
 - name: PHP
   level: 90
+- name: Angular 2+
+  level: 90
+- name: React
+  level: 70
 - name: Docker
   level: 80
-knowledge: Also knowledge in Linux.
+- name: Git
+  level: 90
 
 contact:
   email: jilvan.silva@gmail.com
   phone: +55 92 98418-2160
-  street: Belo Horizonte street, N397. Adrianopolis
+  street: Maneca Marques Ave, N900, ap702A. Parque 10
   city: Manaus - AM
   # website: jilvanx.com
   github: jilvanx

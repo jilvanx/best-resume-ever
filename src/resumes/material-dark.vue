@@ -4,10 +4,20 @@
     <div class="shadow"></div>
     <div class="heading" id="myselfpic">
     </div>
+
+    <div class="section-headline">
+        {{ lang.about }}
+    </div>
+    <div class="item about">
+      <div class="text text-about">
+        {{person.about}}
+      </div>
+    </div>
+
     <div class="section-headline">
       {{ lang.contact }}
     </div>
-    <div class="item">
+    <!-- <div class="item">
       <div class="icon">
         <i class="material-icons">account_circle</i>
       </div>
@@ -16,7 +26,7 @@
           <li> {{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
     <div class="item">
       <div class="icon">
@@ -97,6 +107,13 @@
       <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
       <div>{{person.position}}</div>
     </div>
+
+    <!-- <div class="section-headline">{{ lang.about }}</div>
+    <div class="block">
+        <p class="info">
+          {{person.about}}
+        </p>
+    </div> -->
 
     <div class="section-headline">{{ lang.experience }}</div>
     <div class="block" v-for="experience in person.experience" :key="experience.company">
@@ -379,12 +396,22 @@ h4 {
       display:block;
       font-size:15px;
       font-weight:300;
+      text-align: justify;
+      text-justify: inter-word;
       li {
         padding-top:0;
         display:block;
         font-size:15px;
         font-weight:300;
       }
+    }
+    .text-about {
+      width: 80%;
+      float: left;
+      text-align: justify;
+      text-justify: inter-word;
+      margin-bottom: 14px;
+      margin-left: 25px;
     }
     span {
       font-weight:300;
@@ -438,7 +465,12 @@ h4 {
     border-bottom-style:none;
     padding-bottom:0;
   }
+
+  .item.about {
+    margin-top: 0px;
+  }
 }
+
 #myselfpic {
   background-image:url('../../resume/id.jpg');
   color:black;

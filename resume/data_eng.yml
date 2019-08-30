@@ -5,8 +5,9 @@ name:
   last: da Silva
 
 about: I'm a FullStack Developer. I have more than 15 years of experience with web development.
-      I'm currently improving Javascript stack (ReactJS, React Native e NodeJS).
+      I'm currently improving Javascript stack (ReactJS, React Native and NodeJS).
       I'm a passionate about technology, driven to challenges and constantly updating.
+
 position: Full Stack Developer
 
 birth:
@@ -17,7 +18,7 @@ experience:
 - company: FIT - Institute of Technology
   position: Full Stack Developer
   timeperiod: since March 2018
-  description: Working in projects with Angular 5 in front-end and Spring boot (Java) and .Net Core 2 in the back-end, using technology such as API Rest. Knowledge in SQL queries (SQL Server, Oracle, MySQL, PostgreSQL and Google BigQuery). Using scrum for planning the activities, for version control using tool Bitbucket(Git) and JIRA for bug tracking, issue tracking, and project management.
+  description: Working in projects with Angular 6+ in front-end and Spring boot (Java) and .Net Core 2 in the back-end, using technology such as API Rest. Knowledge in SQL queries (SQL Server, Oracle, MySQL, PostgreSQL and Google BigQuery). Using scrum for planning the activities, for version control using tool Bitbucket(Git) and JIRA for bug tracking, issue tracking, and project management.
 
 - company: SENAI - AM
   position: Full Stack Developer
@@ -43,7 +44,7 @@ education:
   description: UDEMY
 
 - degree: PHP with Laravel for beginners – Become a Master in Laravel
-  timeperiod: Março 2016
+  timeperiod: March 2016
   description: UDEMY
 
 - degree: Bachelor of Science in Computer Science
@@ -63,7 +64,7 @@ skills:
 - name: Angular 2+
   level: 90
 - name: React
-  level: 70
+  level: 80
 - name: Docker
   level: 80
 - name: Git
@@ -72,7 +73,7 @@ skills:
 contact:
   email: jilvan.silva@gmail.com
   phone: +55 92 98418-2160
-  street: Maneca Marques Ave, N900, ap702A. Parque 10
+  street: Maneca Marques Av, N900, Ap 702A. Parque 10
   city: Manaus - AM
   # website: jilvanx.com
   github: jilvanx

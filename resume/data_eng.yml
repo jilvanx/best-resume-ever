@@ -1,51 +1,63 @@
 /* #*/ export const PERSON = `
 name:
   first: Jilvan
-  middle: Candido
+  middle: Cândido
   last: da Silva
 
-about: I'm a FullStack Developer. I have more than 15 years of experience with web development.
-      I'm currently improving Javascript stack (ReactJS, React Native and NodeJS).
-      I'm a passionate about technology, driven to challenges and constantly updating.
+about: I'm a passionate and enthusiastic developer with experience in full-stack development. I have a wide range of experience starting from designing and building small web sites to architect scale real-time web and mobile apps. I continue improving my Javascript stack, with Reactjs, React Native, and Node.js. I try to expand my area of expertise every day and to not be afraid to learn new things.
 
-position: Full Stack Developer
+position: Software Developer
 
 birth:
   year: 1980
   location: Manaus - AM - Brazil
 
 experience:
+- company: Invillia
+  position: Fullstack Developer
+  timeperiod: since May 2019
+  description: Developing and maintaining products for clients using Next.js (React) in the frontend and Node.js in the backend. Scrum for agile project management methodology and GitHub for version control.
+
+- company: ICTS - Institute of Technology
+  position: Tech Leader
+  timeperiod: since December 2019 - April 2020
+  description: Responsible for monitoring activities and delivering the energy efficiency project that makes up a real-time monitoring solution using IoT. Participation in the architecture and definition of technologies used in the project such as Node.js, React.js, React Native, Kafka, MongoDB, Elasticsearch, Redis, Docker and Jest for tests. Development DevOps activities using Google Cloud Platform.
+
 - company: FIT - Institute of Technology
   position: Full Stack Developer
-  timeperiod: since March 2018
-  description: Working in projects with Angular 6+ in front-end and Spring boot (Java) and .Net Core 2 in the back-end, using technology such as API Rest. Knowledge in SQL queries (SQL Server, Oracle, MySQL, PostgreSQL and Google BigQuery). Using scrum for planning the activities, for version control using tool Bitbucket(Git) and JIRA for bug tracking, issue tracking, and project management.
+  timeperiod: since March 2018 - November 2019
+  description: I worked to develop and maintain microservices that collect data from other areas such as production factory, stock, and financial to process and group the information to show on a dashboard for management decisions. To containers, I used docker to build microservices. I used Node.js and Spring Boot (JAVA) on the backend and React.js and React Native on the frontend. For tests, we used Cypress and Jest. Scrum for agile project management methodology, JIRA for issues management, and BitBucket (Git) to version control.
 
 - company: SENAI - AM
   position: Full Stack Developer
   timeperiod: since December 2014 - February 2018
-  description: Perform optimization and maintenance of current systems and legacies (healths system); Technology used are Angular 2+ in front-end and Laravel and C# in back-end, Json, API Rest and Web Service; Integration of ERP with third-party systems and legacy systems utilizing technology such as API and Web Service; SVN and Git for version control.
+  description: I worked such as a front-end developer to develop the main home page of the company. I made some queries on SQL Server to extract data to use on reports by Crystal Reports. Scrum for agile project management methodology.
 
 - company: Rádio TV do Amazonas
   position: Full Stack Developer
   timeperiod: August 2007 - November 2014
-  description: Maintaining online applications 24x7; Using technologies:C#/VB.NET, PHP and Java applications for Web applications; Scrum for planning the activities of internal projects; SVN version control.
+  description: I worked on the migration and maintenance of desktops applications such as financial and commercial to the web application using ASP.NET MVC. I optimized stored procedures and queries on SQL Server. Scrum for agile project management methodology and SVN to version control.
 
 education:
-- degree: Node.js, Express, React, React Native, MongoDB e Docker.
+- degree: Node.js, Express, React, React Native, MongoDB and Docker.
   timeperiod: Abril 2019
   description: Rocketseat
 
-- degree: Build an app with ASPNET Core and Angular from scratch
-  timeperiod: April 2018
-  description: UDEMY
+# - degree: Fullstack Angular and Spring Boot 2
+#   timeperiod: June 2018
+#   description: AlgaWorks
 
-- degree: The Web Developer Bootcamp (HTML, CSS, JS and Node)
-  timeperiod: January 2017
-  description: UDEMY
+# - degree: Build an app with ASPNET Core and Angular from scratch
+#   timeperiod: April 2018
+#   description: UDEMY
 
-- degree: PHP with Laravel for beginners – Become a Master in Laravel
-  timeperiod: March 2016
-  description: UDEMY
+# - degree: The Web Developer Bootcamp (HTML, CSS, JS and Node)
+#   timeperiod: January 2017
+#   description: UDEMY
+
+# - degree: PHP with Laravel for beginners – Become a Master in Laravel
+#   timeperiod: March 2016
+#   description: UDEMY
 
 - degree: Bachelor of Science in Computer Science
   timeperiod: March 2000 - December 2004
@@ -53,20 +65,28 @@ education:
 
 # skill level goes 0 to 100
 skills:
-- name: JavaScript
-  level: 93
+- name: React
+  level: 90
+- name: React Native
+  level: 90
 - name: Node.js
-  level: 70
-- name: .NET Core
   level: 90
 - name: PHP
-  level: 90
+  level: 80
+- name: Java
+  level: 60
 - name: Angular 2+
-  level: 90
-- name: React
-  level: 80
+  level: 50
+- name: Jest
+  level: 70
+- name: Cypress
+  level: 70
 - name: Docker
-  level: 80
+  level: 90
+- name: RabbitMQ
+  level: 70
+- name: Apache Kafka
+  level: 70
 - name: Git
   level: 90
 
@@ -75,7 +95,7 @@ contact:
   phone: +55 92 98418-2160
   street: Maneca Marques Av, N900, Ap 702A. Parque 10
   city: Manaus - AM
-  # website: jilvanx.com
+  website: https://jilvanx.github.io
   github: jilvanx
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw, lt, ko, el
 lang: en

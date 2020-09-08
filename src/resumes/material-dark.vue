@@ -2,8 +2,8 @@
 <div class="resume">
   <div class="leftCol m_box">
     <div class="shadow"></div>
-    <div class="heading" id="myselfpic">
-    </div>
+    <!-- <div class="heading" id="myselfpic">
+    </div> -->
 
     <div class="section-headline">
         {{ lang.about }}
@@ -17,6 +17,7 @@
     <div class="section-headline">
       {{ lang.contact }}
     </div>
+
     <!-- <div class="item">
       <div class="icon">
         <i class="material-icons">account_circle</i>
@@ -28,7 +29,7 @@
       </div>
     </div> -->
 
-    <div class="item">
+    <!-- <div class="item">
       <div class="icon">
         <i class="material-icons">location_city</i>
       </div>
@@ -38,7 +39,7 @@
           <li>{{person.contact.city}}</li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
     <a :href="'tel:'+person.contact.phone">
       <div class="item">
@@ -128,9 +129,12 @@
     <div class="block" v-for="education in person.education" :key="education.degree">
       <div class="block-helper"></div>
       <div class="headline">{{education.degree}}</div>
-      <p class="info">
-        {{education.timeperiod}}, {{education.description}}
-      </p>
+      <div class="info-educ">
+        {{education.timeperiod}}
+      </div>
+      <div class="subheadline">
+        {{education.description}}
+      </div>
     </div>
   </div>
 
@@ -179,7 +183,7 @@ a {
     color:rgba(0,0,0,0.7);
     padding-top:0;
     margin-top: -10px;
-    margin-bottom: -10px;
+    margin-bottom: -17px;
     letter-spacing:10px;
     font-weight:400;
   }
@@ -214,8 +218,8 @@ a {
   font-size:10pt;
   opacity:0.8;
   margin-left:20px;
-  margin-top: 13px;
-  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-bottom: 5px;
   color:#3f3d3c;
 }
 .c {
@@ -278,16 +282,17 @@ h4 {
   display:flex;
   flex-direction:column;
   .block {
-    width:90%;
+    width:95%;
     position:relative;
     background-color:#ffffff;
-    padding: 13px;
+    padding: 8px;
     margin-top:5px;
     margin-bottom:5px;
     display:inline-block;
-    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow:2px 2px 5px 0 rgba(0,0,0,0.16), 2px 2px 10px 0 rgba(0,0,0,0.12);
     .headline {
-      font-weight:300;
+      font-weight:bold;
+
       display:block;
       font-size:15px;
       color:rgba(0,0,0,0.870588);
@@ -302,7 +307,14 @@ h4 {
       font-size:14px;
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
-      padding-top: 8px
+      padding-top: 5px;
+      text-align: justify;
+    }
+     .info-educ {
+      font-size:14px;
+      color:rgba(0,0,0,0.870588);
+      margin-bottom:0;
+      text-align: justify;
     }
     .icon {
       width:16%;

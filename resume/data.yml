@@ -1,11 +1,11 @@
 /* #*/ export const PERSON = `
 name:
   first: Jilvan
-  middle: Candido
+  middle: Cândido
   last: da Silva
 
 about: Olá, meu nome é Jilvan e eu sou FullStack Developer
-      Eu tenho mais de 15 anos de experiência com desenvolvimento web, tendo trabalhado desde pequenos projetos ate para grandes projetos internacionais.
+      Eu tenho mais de 15 anos de experiência com desenvolvimento web, tendo trabalhado para grandes projetos internacionais.
       Atualmente estou me aperfeiçoando na stack JavaScript (ReactJS, React Native e NodeJS).
       Sou proativo, pontual e apaixonado por tecnologias web, movido a desafios e procuro me manter sempre atualizado.
 position: Frontend Developer
@@ -18,17 +18,17 @@ experience:
 - company: FIT - Instituto de Tecnologia
   position: Full Stack Developer
   timeperiod: desde Março de 2018
-  description: Desenvolvimento Fullstack utilizando Angular 5, .Net Core 2, SQL Server, Oracle e Docker para um dashboard web. Bitbucket(Git) para controle de versão dos fontes, JIRA para rastreamento de bugs, rastreamento de problemas e gerenciamento de projetos. Scrum para planejamento das atividades do projeto; Parte da equipe de desenvolvimento fullstack utilizando Angular6, SpringBoot e BigQuery.
+  description: Trabalhei como desenvolvedor full-stack utilizando as seguintes tecnologias - Angula6+ e Reactjs no front-end, Spring Boot (Java) e Node.js no back-end. Conhecimento em banco de dados relacionais (SQL Server, Oracle, PostgreSQL e MySQL) e não relacionais (Google Bigquery, MongoDB e Redis). Docker como container, Bitbucket(git) para controle de versão dos fontes, JIRA para rastreamento de bugs, rastreamento de problemas e gerenciamento dos projetos. Scrum para planejamento das atividades do projeto.
 
 - company: Indikko (Startup)
   position: FrontEnd Developer
   timeperiod: Junho de 2017 - Novembro de 2017
-  description: Desenvolvedor frontend utilizando:Angular 4 e Git como controle de versão.
+  description: Trabalhei como Desenvolvedor frontend, fazendo a main page e um pegueno dashboard utilizando Angular 4 e Git como controle de versão.
 
 - company: SENAI - AM
   position: Full Stack Developer
   timeperiod: Dezembro de 2014 - Fevereiro de 2018
-  description: Arquitetar, integrar e implementar soluções web. Frontend:Javascript e Angularjs  Backend:Laravel, C#, Rest API e Web Service. Git para controle de versão.
+  description: Arquitetar, integrar e implementar soluções web. Front-end:Javascript e Angularjs Back-end:Laravel, C#, Rest API e Web Service. Git para controle de versão.
 
 - company: Rádio TV do Amazonas
   position: Full Stack Developer
@@ -36,40 +36,38 @@ experience:
   description: Desenvolvimento e migração dos sistemas desktop (financeiro e comercial) para web. Tecnologias PHP e JavaEE. Scrum para planejamento das atividades. SVN para controle de versão dos fontes
 
 education:
-- degree: Node.js, Express, React, React Native, MongoDB e Docker.
-  timeperiod: Abril 2019
-  description: Rocketseat
+# - degree: Node.js, Express, React, React Native, MongoDB e Docker.
+#   timeperiod: Abril 2019
+#   description: Rocketseat
 
-- degree: Build an app with ASPNET Core and Angular from Scratch
-  timeperiod: Abril 2018
-  description: UDEMY
+# - degree: Build an app with ASPNET Core and Angular from scratch
+#   timeperiod: April 2018
+#   description: UDEMY
 
-- degree: The Web Developer Bootcamp (HTML, CSS, JS and Node)
-  timeperiod: Janeiro 2017
-  description: UDEMY
+# - degree: The Web Developer Bootcamp (HTML, CSS, JS and Node)
+#   timeperiod: January 2017
+#   description: UDEMY
 
-  # - degree: PHP with Laravel for beginners – Become a Master in Laravel
-  #   timeperiod: Março 2016
-  #   description: UDEMY
+# # - degree: PHP with Laravel for beginners – Become a Master in Laravel
+# #   timeperiod: March 2016
+# #   description: UDEMY
 
-- degree: Bacharel em Ciência da Computação
-  timeperiod: Março 2000 - Dezembro 2004
-  description: UNIP - Universidade Paulista
+- degree: Bachelor of Science in Computer Science
+  timeperiod: March 2000 - December 2004
+  description: UNIP - Brazil
 
 # skill level goes 0 to 100
 skills:
-- name: JavaScript
-  level: 93
 - name: Node.js
-  level: 70
-- name: ASP.NET Core
   level: 90
 - name: PHP
   level: 90
-- name: Angular 2+
-  level: 90
+- name: ASP.NET Core
+  level: 80
 - name: React
-  level: 70
+  level: 90
+- name: Angular 2+
+  level: 80
 - name: Docker
   level: 80
 - name: Git
@@ -78,8 +76,9 @@ skills:
 contact:
   email: jilvan.silva@gmail.com
   phone: +55 92 98418-2160
-  street: Rua Maneca Marques, N900 apto 702. Parque 10
+  street: Maneca Marques Av, N900, Ap 702A. Parque 10
   city: Manaus - AM
+  # website: jilvanx.com
   github: jilvanx
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw, lt, ko, el
 lang: pt-br
